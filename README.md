@@ -74,5 +74,3 @@ Este projeto foi desenvolvido por:
 *   Arthur Avila Scharfenberger
 *   Eduardo Weber Laux
 *   Lucas Oliveira da Silva
-*   **Eduardo Weber Laux**
-*   **Lucas Oliveira da Silva**
