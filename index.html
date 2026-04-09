@@ -1,137 +1,163 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Café da Esquina | Sua cafeteria de Esquina</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-</head>
-<body>
-    <!-- Header -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <header id="header">
-        <div class="container">
-            <div class="logo">
-                <img src="./img/logo_cafe_esquina.png" alt="Logo Café da Esquina">
-                <span>Café da Esquina</span>
-            </div>
-            <nav>
-                <ul id="nav-menu">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#cardapio">Cardápio</a></li>
-                    <li><a href="#contato">Contato</a></li>
-                </ul>
-                <div class="menu-toggle" id="mobile-menu">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </div>
-            </nav>
+      <div class="container">
+        <div class="logo">
+          <img src="./img/logo_cafe_esquina.png" alt="Logo Café da Esquina" />
+          <span>Café da Esquina</span>
         </div>
+        <nav>
+          <ul id="nav-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#cardapio">Cardápio</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+          <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </nav>
+      </div>
     </header>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./img/cafe_hero.jpg');">
-        <div class="hero-content">
-            <h1>Onde o aroma encontra o aconchego.</h1>
-            <p>Sua cafeteria de esquina com um toque moderno e artesanal.</p>
-            <a href="#cardapio" class="btn">Ver Cardápio</a>
-        </div>
+    <section
+      id="home"
+      class="hero"
+      style="
+        background-image:
+          linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+          url(&quot;./img/cafe_hero.jpg&quot;);
+      "
+    >
+      <div class="hero-content">
+        <h1>Onde o aroma encontra o aconchego.</h1>
+        <p>Sua cafeteria de esquina com um toque moderno e artesanal.</p>
+        <a href="#cardapio" class="btn">Ver Cardápio</a>
+      </div>
     </section>
 
-    <!-- Sobre Section -->
     <section id="sobre" class="section">
-        <div class="container about-container">
-            <div class="about-text">
-                <h2>Sobre o Café da Esquina</h2>
-                <p>Nascemos do desejo de criar um refúgio no coração do bairro. O Café da Esquina não é apenas uma cafeteria, é um espaço pensado para quem valoriza momentos de pausa, conversas inspiradoras e um ambiente produtivo para trabalhar.</p>
-                <p>Nossos grãos são selecionados e nossos acompanhamentos são feitos de forma artesanal, garantindo que cada visita seja uma experiência única e acolhedora.</p>
-            </div>
-            <div class="about-image">
-                <img src="./img/cafe_products.jpg" alt="Nossos produtos artesanais">
-            </div>
+      <div class="container about-container">
+        <div class="about-text">
+          <h2>Sobre o Café da Esquina</h2>
+          <p>
+            Nascemos do desejo de criar um refúgio no coração do bairro. O Café
+            da Esquina não é apenas uma cafeteria, é um espaço pensado para quem
+            valoriza momentos de pausa, conversas inspiradoras e um ambiente
+            produtivo para trabalhar.
+          </p>
+          <p>
+            Nossos grãos são selecionados e nossos acompanhamentos são feitos de
+            forma artesanal, garantindo que cada visita seja uma experiência
+            única e acolhedora.
+          </p>
         </div>
+        <div class="about-image">
+          <img src="./img/cafe_products.jpg" alt="Nossos produtos artesanais" />
+        </div>
+      </div>
     </section>
 
-    <!-- Cardápio Section -->
     <section id="cardapio" class="section bg-light">
-        <div class="container">
-            <h2 class="text-center">Destaques do Cardápio</h2>
-            <div class="menu-grid">
-                <div class="menu-category">
-                    <h3>☕ Bebidas</h3>
-                    <ul>
-                        <li><span>Espresso</span> <span>R$ 6,00</span></li>
-                        <li><span>Cappuccino</span> <span>R$ 12,00</span></li>
-                        <li><span>Café com leite</span> <span>R$ 8,00</span></li>
-                        <li><span>Mocha</span> <span>R$ 14,00</span></li>
-                        <li><span>Chocolate quente</span> <span>R$ 11,00</span></li>
-                    </ul>
-                </div>
-                <div class="menu-category">
-                    <h3>🍰 Comidas</h3>
-                    <ul>
-                        <li><span>Croissant</span> <span>R$ 10,00</span></li>
-                        <li><span>Pão de queijo</span> <span>R$ 5,00</span></li>
-                        <li><span>Torta de limão</span> <span>R$ 15,00</span></li>
-                        <li><span>Bolo de cenoura</span> <span>R$ 12,00</span></li>
-                        <li><span>Sanduíche natural</span> <span>R$ 18,00</span></li>
-                    </ul>
-                </div>
-            </div>
+      <div class="container">
+        <h2 class="text-center">Destaques do Cardápio</h2>
+        <div class="menu-grid">
+          <div class="menu-category">
+            <h3>☕ Bebidas</h3>
+            <ul>
+              <li><span>Espresso</span> <span>R$ 6,00</span></li>
+              <li><span>Cappuccino</span> <span>R$ 12,00</span></li>
+              <li><span>Café com leite</span> <span>R$ 8,00</span></li>
+              <li><span>Mocha</span> <span>R$ 14,00</span></li>
+              <li><span>Chocolate quente</span> <span>R$ 11,00</span></li>
+            </ul>
+          </div>
+          <div class="menu-category">
+            <h3>🍰 Comidas</h3>
+            <ul>
+              <li><span>Croissant</span> <span>R$ 10,00</span></li>
+              <li><span>Pão de queijo</span> <span>R$ 5,00</span></li>
+              <li><span>Torta de limão</span> <span>R$ 15,00</span></li>
+              <li><span>Bolo de cenoura</span> <span>R$ 12,00</span></li>
+              <li><span>Sanduíche natural</span> <span>R$ 18,00</span></li>
+            </ul>
+          </div>
         </div>
+      </div>
     </section>
 
-    <!-- Localização e Horário -->
     <section id="info" class="section">
-        <div class="container info-grid">
-            <div class="info-item">
-                <h3>🕒 Horário de Funcionamento</h3>
-                <p>Segunda a Sexta: 08:00 - 20:00</p>
-                <p>Sábados e Domingos: 09:00 - 18:00</p>
-            </div>
-            <div class="info-item">
-                <h3>📍 Localização</h3>
-                <p>Av. Farroupilha, 8001 - São José</p>
-                <p>Canoas - RS, 92425-900</p>
-            </div>
+      <div class="container info-grid">
+        <div class="info-item">
+          <h3>🕒 Horário de Funcionamento</h3>
+          <p>Segunda a Sexta: 08:00 - 20:00</p>
+          <p>Sábados e Domingos: 09:00 - 18:00</p>
         </div>
+        <div class="info-item">
+          <h3>📍 Localização</h3>
+          <p>Av. Farroupilha, 8001 - São José</p>
+          <p>Canoas - RS, 92425-900</p>
+        </div>
+      </div>
     </section>
 
-    <!-- Contato Section -->
     <section id="contato" class="section bg-light">
-        <div class="container">
-            <h2 class="text-center">Entre em Contato</h2>
-            <form id="contact-form" class="contact-form">
-                <div class="form-group">
-                    <input type="text" placeholder="Seu Nome" required>
-                </div>
-                <div class="form-group">
-                    <input type="email" placeholder="Seu E-mail" required>
-                </div>
-                <div class="form-group">
-                    <textarea placeholder="Sua Mensagem" rows="5" required></textarea>
-                </div>
-                <button type="submit" class="btn btn-block">Enviar Mensagem</button>
-            </form>
-        </div>
+      <div class="container">
+        <h2 class="text-center">Entre em Contato</h2>
+        <form id="contact-form" class="contact-form">
+          <div class="form-group">
+            <input type="text" placeholder="Seu Nome" required />
+          </div>
+          <div class="form-group">
+            <input type="email" placeholder="Seu E-mail" required />
+          </div>
+          <div class="form-group">
+            <textarea placeholder="Sua Mensagem" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-block">Enviar Mensagem</button>
+        </form>
+      </div>
     </section>
 
-    <!-- Footer -->
     <footer>
-        <div class="container">
-            <p>&copy; 2026 Café da Esquina. Todos os direitos reservados.</p>
-            <p>Devs: Arthur Scharfenberger, Lucas Oliveira, Eduardo Weber</p>
-            <div class="social-links">
-                <a href="#">Instagram</a> | <a href="#">Facebook</a> | <a href="#">WhatsApp</a>
-            </div>
+      <div class="container footer-grid">
+        <div class="footer-info">
+          <p>&copy; 2026 <strong>Café da Esquina</strong>.</p>
+          <p>Todos os direitos reservados.</p>
         </div>
+
+        <div class="footer-devs">
+          <p><i class="fas fa-code"></i> Desenvolvido por:</p>
+          <span>Arthur Scharfenberger • Lucas Oliveira • Eduardo Weber</span>
+        </div>
+
+        <div class="social-links">
+          <a href="#">Instagram</a>
+          <a href="#">Facebook</a>
+          <a href="#">WhatsApp</a>
+        </div>
+      </div>
     </footer>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
